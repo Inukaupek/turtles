@@ -1,0 +1,355 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+    
+}
+nav{
+	position:fixed;
+	width:100%;
+	background:  rgba(255, 255, 255, .8);
+}
+ul {
+    list-style: none;
+    padding-left:280px;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background:rgba(255, 255, 255, .8);;
+    position: absolute;
+    z-index:1000;
+    display: none;
+	padding:0;
+}
+
+ul li a:hover {
+    background: #042239;
+	color:white;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: #12162c;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: #1ca2e0;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #3fa3eb;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: #3F71EA;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}       
+.home5{
+	background-image:url('IMAGES/TURTLE33.jpg');
+	height:100vh;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.div2 h1{
+    padding-top:300px;
+	padding-left:12%;
+	font-size:60px;
+	font-family: 'Bruno Ace SC';
+	color:rgb(255, 255, 255);	
+    justify-content:center;
+}
+.min9{
+    margin-top:320px;
+    padding:30px;
+}
+.min9 h1{
+	font-size:35px;
+	padding-bottom:15px;
+	color:#1c2b7a;
+}
+.min9 p{
+    font-size:18px;
+}
+.container{
+	margin-top:20px;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;	
+	
+}
+.about h1{
+	margin-top:30px;
+	font-size:35px;
+	padding-left:25px;
+	color:#1c286d;
+}
+.card{
+	width:400px;
+	margin:30px;
+	background-color:rgb(252, 251, 250);
+	border-radius:30px;
+
+	
+}
+
+.card-image{
+    height:270px;
+	margin-bottom:5px;
+	background-size:cover;
+	border-radius:30px;
+
+}
+
+.box-1{
+	background-image:url('IMAGES/TURTLE79.jpeg');
+}
+.box-2{
+	background-image:url('IMAGES/TURTLE74.jpg');
+}
+.box-3{
+	background-image:url('IMAGES/TURTLE78.jpeg');
+}
+.card h1{
+	padding:10px;
+	font-size:18px;
+}
+.card p{
+	padding:10px;
+	font-size:15px;
+}
+.card:hover{
+	background-color:rgb(7, 42, 73);
+	color:white;
+	cursor:pointer;
+	transition:all 1s ease;
+	transform:scale(1);
+}
+.can{
+	background-color:#8f9296;
+}
+@media(max-width:600px){
+	.grid-container{
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap:5px;
+	}   
+	.grid-container img {
+		width: 260px;
+		height: 200px;
+		border-radius: 30px;
+	
+	}
+	.home{
+		height: 730px;
+	}
+	nav{
+		height:50px;
+	}
+	ul li{
+	padding-left: 0px;
+    font-size: 8px;
+	padding-top:5px;
+	}
+	ul li a{
+		padding:6px;;
+	}
+	ul{
+		padding-left: 0px;
+	}
+	ul li ul.dropdown {
+		font-size:8px;
+	}
+	.div2 h1{
+		padding-left: 5%;
+		font-size: 35px;
+		text-align:center;
+		}
+}
+	
